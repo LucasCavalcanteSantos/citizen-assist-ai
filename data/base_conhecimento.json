@@ -1,0 +1,327 @@
+{
+  "versao": "1.0",
+  "descricao": "Base de orientações do Citizen Assist AI. Conteúdo resumido de fontes oficiais identificáveis. Não substitui os canais oficiais.",
+  "temas": {
+    "documentos": {
+      "nome": "Documentação",
+      "descricao": "Documentos de identificação, cadastro fiscal e título de eleitor.",
+      "subtemas": {
+        "identificacao": "Carteira de Identidade Nacional (CIN)",
+        "cadastro_fiscal": "CPF",
+        "eleitoral": "Título de eleitor"
+      },
+      "relacionados": ["servicos"]
+    },
+    "servicos": {
+      "nome": "Serviços sociais, saúde e previdência",
+      "descricao": "Cadastro Único, Cartão SUS, INSS e conta gov.br.",
+      "subtemas": {
+        "assistencia_social": "Cadastro Único",
+        "saude": "Cartão Nacional de Saúde (SUS)",
+        "previdencia": "INSS",
+        "acesso_digital": "Conta gov.br"
+      },
+      "relacionados": ["documentos", "direitos"]
+    },
+    "direitos": {
+      "nome": "Direitos e orientações comunitárias",
+      "descricao": "Canais de denúncia, defesa do consumidor e ouvidoria.",
+      "subtemas": {
+        "direitos_humanos": "Disque 100 e Ligue 180",
+        "consumidor": "Consumidor.gov.br e Anatel",
+        "ouvidoria": "Fala.BR"
+      },
+      "relacionados": ["servicos"]
+    }
+  },
+  "orientacoes": [
+    {
+      "id": "D01",
+      "tema": "documentos",
+      "subtema": "identificacao",
+      "titulo": "Como emitir a Carteira de Identidade Nacional (CIN)",
+      "palavras_chave": ["identidade", "cin", "rg", "carteira de identidade", "emitir", "tirar", "nova identidade", "biometria"],
+      "perguntas_exemplo": ["Como tiro a nova carteira de identidade?", "Como fazer o RG novo?"],
+      "orientacao": "A CIN substitui o antigo RG e usa o número do CPF como identificador. Acesse gov.br/identidade, escolha o seu estado e agende o atendimento para coleta da biometria. No dia, leve a certidão de nascimento ou de casamento original. A primeira via é gratuita.",
+      "referencia": {
+        "fonte": "Agência Gov / Ministério da Gestão e da Inovação – emissão da nova CIN",
+        "url": "https://agenciagov.ebc.com.br/noticias/202605/semana-do-trabalhador-e-da-trabalhadora-aproxima-estado-da-populacao-com-emissao-da-nova-cin"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["D02", "D03"]
+    },
+    {
+      "id": "D02",
+      "tema": "documentos",
+      "subtema": "identificacao",
+      "titulo": "CIN digital no aplicativo gov.br",
+      "palavras_chave": ["identidade digital", "cin digital", "celular", "aplicativo", "app gov.br", "carteira de documentos"],
+      "perguntas_exemplo": ["Como coloco a identidade no celular?"],
+      "orientacao": "Depois que o órgão de identificação emite a CIN física, a versão digital pode ser adicionada no aplicativo gov.br, na área 'carteira de documentos'. A versão digital tem QR Code para validar a autenticidade.",
+      "referencia": {
+        "fonte": "Serpro – Carteira de Identidade Nacional chega a 24 unidades da federação",
+        "url": "https://www.serpro.gov.br/menu/noticias/noticias-2024/carteira-identidade-nacional-24-unidades-federacao"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["D01", "S06"]
+    },
+    {
+      "id": "D03",
+      "tema": "documentos",
+      "subtema": "cadastro_fiscal",
+      "titulo": "Inscrição no CPF",
+      "palavras_chave": ["cpf", "inscrever", "inscricao", "tirar cpf", "fazer cpf", "pagar", "gratuito", "receita federal"],
+      "perguntas_exemplo": ["Como faço meu CPF?", "Precisa pagar para fazer o CPF?"],
+      "orientacao": "A inscrição no CPF é gratuita pelo serviço 'Inscrever no CPF' no portal gov.br. Em unidades conveniadas é cobrada uma taxa de R$ 7,00. Não são necessários intermediários: desconfie de quem cobra para fazer o cadastro.",
+      "referencia": {
+        "fonte": "gov.br – Inscrever no CPF (Receita Federal)",
+        "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["D04", "S06"]
+    },
+    {
+      "id": "D04",
+      "tema": "documentos",
+      "subtema": "cadastro_fiscal",
+      "titulo": "Consultar ou regularizar a situação do CPF",
+      "palavras_chave": ["cpf suspenso", "regularizar", "situacao cadastral", "consultar cpf", "cpf irregular", "comprovante"],
+      "perguntas_exemplo": ["Meu CPF está suspenso, o que faço?", "Como consultar a situação do CPF?"],
+      "orientacao": "A situação cadastral do CPF pode ser consultada no site da Receita Federal informando o número do CPF e a data de nascimento. Se houver dados errados ou incompletos, use o serviço de atualização/regularização do CPF no gov.br. Se faltar declaração de Imposto de Renda, a pendência aparece na área de serviços da Receita.",
+      "referencia": {
+        "fonte": "Receita Federal – portal oficial",
+        "url": "https://www.gov.br/receitafederal/pt-br"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["D03"]
+    },
+    {
+      "id": "D05",
+      "tema": "documentos",
+      "subtema": "eleitoral",
+      "titulo": "Tirar o primeiro título de eleitor",
+      "palavras_chave": ["titulo de eleitor", "titulo", "eleitor", "votar", "alistamento", "primeiro titulo", "tse"],
+      "perguntas_exemplo": ["Como tiro meu primeiro título de eleitor?"],
+      "orientacao": "O título é gratuito e pode ser solicitado pela internet no Autoatendimento Eleitoral (Título Net), no portal do TSE, na aba 'Serviços'. Também é possível ir ao cartório eleitoral mais próximo. Jovens a partir de 15 anos já podem solicitar o documento.",
+      "referencia": {
+        "fonte": "TSE – Não tem título de eleitor? Veja como tirar o documento pela internet",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2024/Fevereiro/nao-tem-titulo-de-eleitor-veja-como-tirar-o-documento-pela-internet"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["D06", "D01"]
+    },
+    {
+      "id": "D06",
+      "tema": "documentos",
+      "subtema": "eleitoral",
+      "titulo": "Segunda via do título de eleitor e e-Título",
+      "palavras_chave": ["segunda via", "perdi o titulo", "e-titulo", "etitulo", "imprimir titulo", "titulo digital"],
+      "perguntas_exemplo": ["Perdi meu título, como imprimir outro?"],
+      "orientacao": "Em caso de perda, o título pode ser impresso gratuitamente no Autoatendimento Eleitoral do site do TSE ('Imprimir Título Eleitoral') ou acessado pelo aplicativo e-Título. As duas versões têm QR Code de validação.",
+      "referencia": {
+        "fonte": "TSE – Perdeu o título de eleitor? Veja como tirar a 2ª via do documento",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2023/Outubro/perdeu-o-titulo-de-eleitor-veja-como-tirar-a-2o-via-do-documento"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["D05"]
+    },
+    {
+      "id": "S01",
+      "tema": "servicos",
+      "subtema": "assistencia_social",
+      "titulo": "Inscrição no Cadastro Único (CadÚnico)",
+      "palavras_chave": ["cadastro unico", "cadunico", "cras", "bolsa familia", "programas sociais", "beneficio social", "inscrever"],
+      "perguntas_exemplo": ["Como me inscrevo no Cadastro Único?"],
+      "orientacao": "A inscrição no Cadastro Único é feita presencialmente em um CRAS ou posto do Cadastro Único da sua cidade, pelo responsável familiar. É possível adiantar um pré-cadastro no aplicativo ou site Meu CadÚnico com a conta gov.br, mas a entrevista presencial é necessária para concluir.",
+      "referencia": {
+        "fonte": "gov.br – Inscrever-se no Cadastro Único",
+        "url": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["S02", "D03", "S06"]
+    },
+    {
+      "id": "S02",
+      "tema": "servicos",
+      "subtema": "assistencia_social",
+      "titulo": "Atualizar dados do Cadastro Único",
+      "palavras_chave": ["atualizar cadunico", "atualizacao cadastral", "mudei de endereco", "atualizar dados", "cadastro desatualizado"],
+      "perguntas_exemplo": ["Preciso atualizar meu CadÚnico, onde faço?"],
+      "orientacao": "Mudanças na família, renda ou endereço devem ser informadas no CRAS ou posto do Cadastro Único do município. Cadastros desatualizados podem prejudicar o acesso a programas sociais. A consulta aos dados pode ser feita pelo aplicativo Meu CadÚnico com login gov.br.",
+      "referencia": {
+        "fonte": "gov.br – Inscrever-se no Cadastro Único (orientações de atualização)",
+        "url": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["S01"]
+    },
+    {
+      "id": "S03",
+      "tema": "servicos",
+      "subtema": "saude",
+      "titulo": "Como obter o Cartão Nacional de Saúde (Cartão SUS)",
+      "palavras_chave": ["cartao sus", "sus", "cartao nacional de saude", "cns", "saude", "fazer cartao sus", "meu sus digital"],
+      "perguntas_exemplo": ["Como faço o cartão do SUS?"],
+      "orientacao": "O Ministério da Saúde passou a usar o CPF como base do Cartão Nacional de Saúde. A versão digital fica no aplicativo ou site Meu SUS Digital, com login gov.br. Também é possível se cadastrar em uma Unidade Básica de Saúde levando documento de identificação e comprovante de residência.",
+      "referencia": {
+        "fonte": "Ministério da Saúde – Ministério começa a emitir Cartão SUS com base no CPF",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/setembro/ministerio-da-saude-comeca-a-emitir-cartao-sus-com-base-no-cpf"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["S04", "S06"]
+    },
+    {
+      "id": "S04",
+      "tema": "servicos",
+      "subtema": "saude",
+      "titulo": "Consultar o número do Cartão SUS",
+      "palavras_chave": ["numero do cartao sus", "consultar cartao sus", "segunda via cartao sus", "perdi cartao sus", "meu perfil"],
+      "perguntas_exemplo": ["Onde vejo o número do meu cartão do SUS?"],
+      "orientacao": "Entre no Meu SUS Digital (aplicativo ou site) com a conta gov.br, abra 'Meu Perfil' e depois 'Cartão Nacional de Saúde'. Ali aparece o número e a versão digital do cartão, que pode ser usada no atendimento.",
+      "referencia": {
+        "fonte": "Ministério da Saúde – Cartão SUS com base no CPF / Meu SUS Digital",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/setembro/ministerio-da-saude-comeca-a-emitir-cartao-sus-com-base-no-cpf"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["S03"]
+    },
+    {
+      "id": "S05",
+      "tema": "servicos",
+      "subtema": "previdencia",
+      "titulo": "Canais de atendimento do INSS",
+      "palavras_chave": ["inss", "meu inss", "135", "aposentadoria", "previdencia", "beneficio", "telefone inss", "pericia"],
+      "perguntas_exemplo": ["Qual o telefone do INSS?", "Como falar com o INSS?"],
+      "orientacao": "Os canais oficiais do INSS são o site/aplicativo Meu INSS (login gov.br) e a Central 135, com atendimento humano de segunda a sábado, das 7h às 22h (horário de Brasília). Fora desse horário, o 135 oferece atendimento eletrônico. Pedidos como aposentadoria e agendamentos podem ser feitos em 'Novo pedido' no Meu INSS.",
+      "referencia": {
+        "fonte": "INSS – portal oficial (Central 135 e Meu INSS)",
+        "url": "https://www.gov.br/inss/pt-br"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["S06"]
+    },
+    {
+      "id": "S06",
+      "tema": "servicos",
+      "subtema": "acesso_digital",
+      "titulo": "Conta gov.br",
+      "palavras_chave": ["gov.br", "conta gov", "conta govbr", "login", "senha gov", "prata", "ouro", "bronze", "criar conta"],
+      "perguntas_exemplo": ["Como crio minha conta gov.br?"],
+      "orientacao": "A conta gov.br é o login único para serviços digitais do governo federal (Meu INSS, Meu SUS Digital, Meu CadÚnico, carteira de documentos). Ela tem níveis bronze, prata e ouro; alguns serviços exigem prata ou ouro. A conta é criada gratuitamente no site ou aplicativo gov.br informando o CPF.",
+      "referencia": {
+        "fonte": "Governo Digital – Conta gov.br",
+        "url": "https://www.gov.br/governodigital/pt-br/conta-gov-br"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["D02", "S05", "S03"]
+    },
+    {
+      "id": "C01",
+      "tema": "direitos",
+      "subtema": "direitos_humanos",
+      "titulo": "Denunciar violação de direitos humanos (Disque 100)",
+      "palavras_chave": ["disque 100", "direitos humanos", "denuncia", "denunciar", "violacao", "idoso", "crianca", "pessoa com deficiencia"],
+      "perguntas_exemplo": ["Como denuncio uma violação de direitos humanos?"],
+      "orientacao": "O Disque 100 recebe e encaminha denúncias de violações de direitos humanos. Funciona 24 horas, todos os dias, por telefone (disque 100, gratuito), WhatsApp (61) 99611-0100, Telegram ('DireitosHumanosBrasil') e videochamada em Libras. A denúncia pode ser anônima e recebe protocolo.",
+      "referencia": {
+        "fonte": "Ministério dos Direitos Humanos e da Cidadania – Denunciar violação de direitos humanos (Disque 100)",
+        "url": "https://www.gov.br/mdh/pt-br/servicos/denunciar-violacao-de-direitos-humanos-disque-100"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["C02", "C05"]
+    },
+    {
+      "id": "C02",
+      "tema": "direitos",
+      "subtema": "direitos_humanos",
+      "titulo": "Violência contra a mulher (Ligue 180)",
+      "palavras_chave": ["ligue 180", "180", "violencia contra mulher", "violencia domestica", "maria da penha", "mulher"],
+      "perguntas_exemplo": ["Onde denunciar violência contra a mulher?"],
+      "orientacao": "A Central de Atendimento à Mulher – Ligue 180 é gratuita, funciona 24 horas e orienta sobre direitos e serviços da rede de atendimento, além de registrar denúncias. Canais: telefone 180, WhatsApp (61) 9610-0180, e-mail central180@mulheres.gov.br e atendimento em Libras. Se houver risco imediato, ligue 190.",
+      "referencia": {
+        "fonte": "gov.br – Denunciar e buscar ajuda a vítimas de violência contra mulheres (Ligue 180)",
+        "url": "https://www.gov.br/pt-br/servicos/denunciar-e-buscar-ajuda-a-vitimas-de-violencia-contra-mulheres"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["C01", "C05"]
+    },
+    {
+      "id": "C03",
+      "tema": "direitos",
+      "subtema": "consumidor",
+      "titulo": "Reclamar de uma empresa no Consumidor.gov.br",
+      "palavras_chave": ["consumidor", "reclamacao", "reclamar", "empresa", "compra", "procon", "consumidor.gov.br", "produto com defeito"],
+      "perguntas_exemplo": ["A empresa não resolveu meu problema, onde reclamo?"],
+      "orientacao": "No Consumidor.gov.br, verifique se a empresa está cadastrada e registre a reclamação com login gov.br. A empresa tem até 10 dias para responder e você pode avaliar a resposta como resolvida ou não. A plataforma não substitui o Procon: se não houver solução, procure o Procon da sua cidade ou estado.",
+      "referencia": {
+        "fonte": "Ministério da Justiça – Boletim Consumidor.gov.br 2024",
+        "url": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor/defesadoconsumidor/Biblioteca/boletins-1/boletim-consumidor-gov-br-2024.pdf"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": ["C04", "C06"]
+    },
+    {
+      "id": "C04",
+      "tema": "direitos",
+      "subtema": "consumidor",
+      "titulo": "Reclamar de operadora de telefone ou internet (Anatel)",
+      "palavras_chave": ["operadora", "internet", "telefone", "celular", "anatel", "telecomunicacoes", "cobranca indevida", "plano"],
+      "perguntas_exemplo": ["Minha operadora de internet está cobrando errado, o que faço?"],
+      "orientacao": "Primeiro registre a reclamação na própria operadora e anote o protocolo. Se a resposta não vier ou não resolver, registre reclamação na Anatel, que recebe queixas contra operadoras de telecomunicações que não cumprem suas obrigações.",
+      "referencia": {
+        "fonte": "Anatel – Registrar Reclamação",
+        "url": "https://www.gov.br/anatel/pt-br/consumidor/reclamacao"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["C03"]
+    },
+    {
+      "id": "C05",
+      "tema": "direitos",
+      "subtema": "direitos_humanos",
+      "titulo": "Situação de emergência ou risco imediato",
+      "palavras_chave": ["emergencia", "190", "policia", "risco imediato", "perigo", "socorro", "violencia agora"],
+      "perguntas_exemplo": ["Estou em perigo agora, para quem ligo?"],
+      "orientacao": "Se a violência estiver acontecendo agora ou houver risco imediato, ligue 190 (Polícia Militar). Depois, os canais Ligue 180 e Disque 100 podem orientar sobre a rede de apoio e o registro da denúncia.",
+      "referencia": {
+        "fonte": "Ministério das Mulheres – Violência contra mulheres no campo: saiba onde buscar ajuda",
+        "url": "https://agenciagov.ebc.com.br/noticias/202608/violencia-contra-mulheres-no-campo-saiba-onde-buscar-ajuda"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["C02", "C01"]
+    },
+    {
+      "id": "C06",
+      "tema": "direitos",
+      "subtema": "ouvidoria",
+      "titulo": "Reclamar de um serviço público federal (Fala.BR)",
+      "palavras_chave": ["ouvidoria", "fala.br", "falabr", "servico publico", "reclamar do governo", "acesso a informacao", "sugestao", "elogio"],
+      "perguntas_exemplo": ["Como reclamo de um serviço público?"],
+      "orientacao": "A Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR), da Controladoria-Geral da União, recebe reclamações, sugestões, elogios, denúncias e pedidos de acesso à informação sobre órgãos públicos. O acesso é feito em falabr.cgu.gov.br.",
+      "referencia": {
+        "fonte": "Ouvidoria Nacional de Direitos Humanos – Relatório de Gestão 2025 (menção ao Fala.BR / CGU)",
+        "url": "https://www.gov.br/mdh/pt-br/ondh/relatorios/RELATORIO_DE_GESTAO_DA_OUVIDORIA_2025.pdf"
+      },
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": ["C03"]
+    }
+  ]
+}

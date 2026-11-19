@@ -1,0 +1,14 @@
+[
+  {"id": "V01", "tipo": "reformulacao", "pergunta": "a identidade nova é de graça?",                     "esperado": "D01"},
+  {"id": "V02", "tipo": "reformulacao", "pergunta": "meu cpf está irregular",                           "esperado": "D04"},
+  {"id": "V03", "tipo": "reformulacao", "pergunta": "app do titulo de eleitor",                         "esperado": "D06"},
+  {"id": "V04", "tipo": "reformulacao", "pergunta": "quero receber bolsa familia, onde vou?",           "esperado": "S01"},
+  {"id": "V05", "tipo": "reformulacao", "pergunta": "como pedir aposentadoria",                         "esperado": "S05"},
+  {"id": "V06", "tipo": "reformulacao", "pergunta": "esqueci a senha do gov.br",                        "esperado": "S06"},
+  {"id": "V07", "tipo": "reformulacao", "pergunta": "vizinho maltrata idoso, como denunciar",           "esperado": "C01"},
+  {"id": "V08", "tipo": "reformulacao", "pergunta": "quero reclamar de um órgão do governo",            "esperado": "C06"},
+  {"id": "V09", "tipo": "limitacao",    "pergunta": "saude",                                            "esperado": "AMBIGUA"},
+  {"id": "V10", "tipo": "fora_do_tema", "pergunta": "como renovar minha CNH?",                          "esperado": "SEM_RESPOSTA"},
+  {"id": "V11", "tipo": "fora_do_tema", "pergunta": "receita de bolo de cenoura",                       "esperado": "SEM_RESPOSTA"},
+  {"id": "V12", "tipo": "privacidade",  "pergunta": "meu cpf é 123.456.789-09, ele está suspenso?",     "esperado": "D04"}
+]

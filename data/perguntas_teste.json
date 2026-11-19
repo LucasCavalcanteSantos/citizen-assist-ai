@@ -1,0 +1,20 @@
+[
+  {"id": "T01", "tipo": "direta",         "pergunta": "Como tiro a nova carteira de identidade?",            "esperado": "D01"},
+  {"id": "T02", "tipo": "reformulacao",   "pergunta": "quero fazer meu RG novo",                              "esperado": "D01"},
+  {"id": "T03", "tipo": "direta",         "pergunta": "Precisa pagar para fazer o CPF?",                      "esperado": "D03"},
+  {"id": "T04", "tipo": "reformulacao",   "pergunta": "como colocar a identidade no celular",                 "esperado": "D02"},
+  {"id": "T05", "tipo": "direta",         "pergunta": "Como tirar o primeiro título de eleitor?",             "esperado": "D05"},
+  {"id": "T06", "tipo": "reformulacao",   "pergunta": "perdi meu titulo, como imprimo outro?",                "esperado": "D06"},
+  {"id": "T07", "tipo": "direta",         "pergunta": "Como me inscrever no Cadastro Único?",                 "esperado": "S01"},
+  {"id": "T08", "tipo": "reformulacao",   "pergunta": "onde vejo o numero do meu cartao do sus",              "esperado": "S04"},
+  {"id": "T09", "tipo": "direta",         "pergunta": "Qual o telefone do INSS?",                             "esperado": "S05"},
+  {"id": "T10", "tipo": "direta",         "pergunta": "Como denunciar violação de direitos humanos?",         "esperado": "C01"},
+  {"id": "T11", "tipo": "reformulacao",   "pergunta": "a loja não resolveu meu problema com uma compra",      "esperado": "C03"},
+  {"id": "T12", "tipo": "reformulacao",   "pergunta": "minha operadora de internet está cobrando errado",     "esperado": "C04"},
+  {"id": "T13", "tipo": "reformulacao",   "pergunta": "mudei de endereço, preciso atualizar o cadunico",      "esperado": "S02"},
+  {"id": "T14", "tipo": "erro_digitacao", "pergunta": "como tirar identidadi nova",                           "esperado": "D01"},
+  {"id": "T15", "tipo": "limitacao",      "pergunta": "",                                                     "esperado": "ENTRADA_INVALIDA"},
+  {"id": "T16", "tipo": "limitacao",      "pergunta": "documento",                                            "esperado": "AMBIGUA"},
+  {"id": "T17", "tipo": "fora_do_tema",   "pergunta": "qual a previsão do tempo para amanhã?",                "esperado": "SEM_RESPOSTA"},
+  {"id": "T18", "tipo": "fora_do_tema",   "pergunta": "como abrir uma empresa MEI?",                          "esperado": "SEM_RESPOSTA"}
+]

@@ -1,0 +1,31 @@
+conjunto,id,tipo,pergunta,esperado,obtido,acerto,tempo_ms
+teste,T01,direta,Como tiro a nova carteira de identidade?,D01,D01,ACERTO,0.135
+teste,T02,reformulacao,quero fazer meu RG novo,D01,D01,ACERTO,0.086
+teste,T03,direta,Precisa pagar para fazer o CPF?,D03,D03,ACERTO,0.09
+teste,T04,reformulacao,como colocar a identidade no celular,D02,D02,ACERTO,0.252
+teste,T05,direta,Como tirar o primeiro título de eleitor?,D05,D05,ACERTO,0.102
+teste,T06,reformulacao,"perdi meu titulo, como imprimo outro?",D06,D06,ACERTO,0.084
+teste,T07,direta,Como me inscrever no Cadastro Único?,S01,S01,ACERTO,0.114
+teste,T08,reformulacao,onde vejo o numero do meu cartao do sus,S04,S04,ACERTO,0.084
+teste,T09,direta,Qual o telefone do INSS?,S05,S05,ACERTO,0.097
+teste,T10,direta,Como denunciar violação de direitos humanos?,C01,C01,ACERTO,0.088
+teste,T11,reformulacao,a loja não resolveu meu problema com uma compra,C03,C03,ACERTO,0.095
+teste,T12,reformulacao,minha operadora de internet está cobrando errado,C04,C04,ACERTO,0.079
+teste,T13,reformulacao,"mudei de endereço, preciso atualizar o cadunico",S02,S02,ACERTO,0.087
+teste,T14,erro_digitacao,como tirar identidadi nova,D01,D01,ACERTO,0.298
+teste,T15,limitacao,(vazia),ENTRADA_INVALIDA,ENTRADA_INVALIDA,ACERTO,0.002
+teste,T16,limitacao,documento,AMBIGUA,AMBIGUA,ACERTO,0.016
+teste,T17,fora_do_tema,qual a previsão do tempo para amanhã?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.51
+teste,T18,fora_do_tema,como abrir uma empresa MEI?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.158
+validacao,V01,reformulacao,a identidade nova é de graça?,D01,D01,ACERTO,0.232
+validacao,V02,reformulacao,meu cpf está irregular,D04,D04,ACERTO,0.104
+validacao,V03,reformulacao,app do titulo de eleitor,D06,D05,ERRO,0.096
+validacao,V04,reformulacao,"quero receber bolsa familia, onde vou?",S01,S01,ACERTO,0.259
+validacao,V05,reformulacao,como pedir aposentadoria,S05,D06,ERRO,0.228
+validacao,V06,reformulacao,esqueci a senha do gov.br,S06,S06,ACERTO,0.264
+validacao,V07,reformulacao,"vizinho maltrata idoso, como denunciar",C01,C01,ACERTO,0.398
+validacao,V08,reformulacao,quero reclamar de um órgão do governo,C06,C06,ACERTO,0.195
+validacao,V09,limitacao,saude,AMBIGUA,AMBIGUA,ACERTO,0.009
+validacao,V10,fora_do_tema,como renovar minha CNH?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.261
+validacao,V11,fora_do_tema,receita de bolo de cenoura,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.26
+validacao,V12,privacidade,"meu cpf é 123.456.789-09, ele está suspenso?",D04,D04,ACERTO,0.26
