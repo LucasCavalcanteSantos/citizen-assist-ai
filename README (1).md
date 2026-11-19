@@ -1,28 +1,20 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
-<p align="center">
-<a href="https://www.fiap.com.br/">
-  <img src="../../../assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="40%">
-</a>
-</p>
-
-<br>
-
 # Citizen Assist AI: assistente de orientação cidadã
 
 **Global Solution 2026.2 · Desafio CitizenTech**
 
 ## Nome do grupo
 
-`[NOME DA EQUIPE]`
+Trabalho individual
 
-## 👨‍🎓 Integrantes
+## 👨‍🎓 Integrante
 
 | Nome | RM |
 |---|---|
-| `[Lucas Davi][individual]` | `RM[98799]` |
+| Lucas Davi | RM98799 |
 
-
+## 👩‍🏫 Professores
 
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
@@ -166,7 +158,7 @@ Na comparação automática sobre 23 respostas, o **Modelo B obteve 114/115 pont
 - **Conjunto de validação** (`data/perguntas_validacao.json`, 12 perguntas): escrito antes da versão final e **não usado para calibrar**. Mede como o assistente lida com perguntas novas.
 - Cada pergunta é executada 5 vezes; o tempo registrado é a média (`time.perf_counter`).
 - **Acerto** = resposta obtida igual à esperada (ID do registro, ou `ENTRADA_INVALIDA`, `AMBIGUA` ou `SEM_RESPOSTA`).
-- **Usabilidade:** roteiro de 6 tarefas + questionário em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
+- **Usabilidade:** roteiro de 8 tarefas executado no sistema real, documentado em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
 
 ### Resultados
 
@@ -182,7 +174,7 @@ Gerados por `python src/avaliacao.py` (detalhes em [`docs/resultados_testes.md`]
 
 **Rodada 1 (antes da calibração):** 15/18 no conjunto de teste (83,3%). As falhas e as correções estão registradas em [`docs/uso_ia.md`](docs/uso_ia.md).
 
-**Usabilidade:** **Usabilidade (roteiro de 8 tarefas):** 8/8 tarefas concluídas (100%), com média de 2,0 interações por tarefa. Principais dificuldades: navegação por códigos (ex.: S03), número digitado no modo pergunta e lista de opções cortada em perguntas genéricas. Detalhes em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
+**Usabilidade (roteiro de 8 tarefas):** 8/8 tarefas concluídas (100%), com média de 2,0 interações por tarefa. Principais dificuldades: navegação por códigos (ex.: S03), número digitado no modo pergunta e lista de opções cortada em perguntas genéricas. Detalhes em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
 
 ### Interpretação
 
@@ -199,8 +191,8 @@ Gerados por `python src/avaliacao.py` (detalhes em [`docs/resultados_testes.md`]
 
 ```bash
 # 1. Clonar o repositório
-git clone [URL_DO_REPOSITORIO]
-cd [PASTA_DO_PROJETO]
+git clone https://github.com/LucasCavalcanteSantos/citizen-assist-ai.git
+cd citizen-assist-ai
 
 # 2. Rodar o assistente (modo interativo)
 python src/sistema.py
@@ -303,7 +295,7 @@ pergunta> meu email é a@b.com, como faço o cartao sus
 
 ### 📢 Observações gerais
 
-- **Participação na Competição:** `[ ] Sim, aceitamos participar / [x] Não vamos participar.`
+- **Participação na Competição:** Não vamos participar.
 
 ## 🏁 10. Conclusões, limitações e melhorias
 
