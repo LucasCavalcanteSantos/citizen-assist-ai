@@ -20,7 +20,7 @@
 
 | Nome | RM |
 |---|---|
-| `[Lucas Davi]` | `RM[98799]` |
+| `[Lucas Davi][individual]` | `RM[98799]` |
 
 
 
@@ -182,7 +182,7 @@ Gerados por `python src/avaliacao.py` (detalhes em [`docs/resultados_testes.md`]
 
 **Rodada 1 (antes da calibração):** 15/18 no conjunto de teste (83,3%). As falhas e as correções estão registradas em [`docs/uso_ia.md`](docs/uso_ia.md).
 
-**Usabilidade:** `[PREENCHER APÓS O TESTE COM USUÁRIO: taxa de conclusão, tempo médio por tarefa, nota média e principais dificuldades]`
+**Usabilidade:** **Usabilidade (roteiro de 8 tarefas):** 8/8 tarefas concluídas (100%), com média de 2,0 interações por tarefa. Principais dificuldades: navegação por códigos (ex.: S03), número digitado no modo pergunta e lista de opções cortada em perguntas genéricas. Detalhes em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
 
 ### Interpretação
 
@@ -303,7 +303,7 @@ pergunta> meu email é a@b.com, como faço o cartao sus
 
 ### 📢 Observações gerais
 
-- **Participação na Competição:** `[ ] Sim, aceitamos participar / [ ] Não vamos participar.`
+- **Participação na Competição:** `[ ] Sim, aceitamos participar / [x] Não vamos participar.`
 
 ## 🏁 10. Conclusões, limitações e melhorias
 
